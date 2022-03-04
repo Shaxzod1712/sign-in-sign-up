@@ -1,38 +1,21 @@
-import styled, {css}from 'styled-components'
-
-const getFontsize=({size})=>{
-    switch(size){
-        case 'desktop': return '26px'
-        case 'tablet': return '22px'
-        case 'mobile': return '18px'
-        default: return '18px'
-    }
-}
-
-const common = css`
-background-color: pink;
-border-radius: 8px;
-`
+import styled from 'styled-components'
 
 export const Wrapper = styled.div`
 display: flex;
-flex-direction:column;
+width: 100%;
+height: 100vh;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
 `
 
 export const Container = styled.div`
-display: ${({display})=>display ? 'flex' : 'none'};
-background-color: ${({light})=>light ? 'blue' : 'red'};
-border-radius: 8px;
-width:200px;
-height:200px;
-margin-left: 8px;
+    display: flex;
+    width: 355px;
+    height: 677px;
+    flex-direction: column;
+    // border: 1px solid red;
+    border-radius: 32px;
+    background-color: #000000;
+    margin-left: 15px;
 `
-
-export const Title = styled.h1`
-color: coral;
-font-size: ${getFontsize}; 
-`
-
-export const Content = styled.div`
-display:flex;
-` 
