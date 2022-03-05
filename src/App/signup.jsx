@@ -8,15 +8,15 @@ const Signup = () =>{
                 Create an <br /> account
             </Text>
             <InputWrapper>
-                <Input placeholder="Username or Email" ></Input>
+                <Input placeholder="Username or Email" required='required'></Input>
                 {/* <IconUser></IconUser> */}
             </InputWrapper>
             <InputWrapper>
-                <Input placeholder="Password" ></Input>
+                <Input type='password' placeholder="Password" required='required'></Input>
                 {/* <IconUser></IconUser> */}
             </InputWrapper>
             <InputWrapper>
-                <Input placeholder="Confirm Password" ></Input>
+                <Input placeholder="Confirm Password" required='required'></Input>
                 {/* <IconUser></IconUser> */}
             </InputWrapper>
             <Text22>By clicking the Register button, you agree to <br/> the public offer </Text22>

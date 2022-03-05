@@ -8,11 +8,11 @@ const Signin = () =>{
                 Welcome <br /> Back!
             </Text>
             <InputWrapper>
-                <Input placeholder="Username or Email" ></Input>
+                <Input placeholder="Username or Email" required='required'></Input>
                 {/* <IconUser></IconUser> */}
             </InputWrapper>
             <InputWrapper>
-                <Input placeholder="Password" ></Input>
+                <Input placeholder="Password" required='required'></Input>
                 {/* <IconUser></IconUser> */}
             </InputWrapper>
             <Text2>Forget Password?</Text2>
