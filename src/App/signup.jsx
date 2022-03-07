@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Text, InputWrapper, Input, Text22,Text3, ButtonWrapper, ButtonWrapperText, ButtonWrapperButton } from "./style";
+import { Container, Text, InputWrapper,IconUser, Input, Text22,Text3, ButtonWrapper, ButtonWrapperText, ButtonWrapperButton } from "./style";
 
 const Signup = () =>{
     return(
@@ -12,17 +12,17 @@ const Signup = () =>{
                 {/* <IconUser></IconUser> */}
             </InputWrapper>
             <InputWrapper>
-                <Input type='password' placeholder="Password" required='required'></Input>
+                <Input type="password" placeholder="Password" required='required'></Input>
                 {/* <IconUser></IconUser> */}
             </InputWrapper>
             <InputWrapper>
-                <Input placeholder="Confirm Password" required='required'></Input>
-                {/* <IconUser></IconUser> */}
+                <Input type="password" placeholder="Confirm Password" required='required'></Input>
+                <IconUser></IconUser>
             </InputWrapper>
             <Text22>By clicking the Register button, you agree to <br/> the public offer </Text22>
             <ButtonWrapper>
                 <ButtonWrapperText>Sign in</ButtonWrapperText>
-                <ButtonWrapperButton>></ButtonWrapperButton>
+                <ButtonWrapperButton>{'->'}</ButtonWrapperButton>
             </ButtonWrapper>
             <Text3>Sign in with</Text3>
             <Text3>Back</Text3>

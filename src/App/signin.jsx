@@ -12,13 +12,13 @@ const Signin = () =>{
                 {/* <IconUser></IconUser> */}
             </InputWrapper>
             <InputWrapper>
-                <Input placeholder="Password" required='required'></Input>
+                <Input type="password" placeholder="Password" required='required'></Input>
                 {/* <IconUser></IconUser> */}
             </InputWrapper>
             <Text2>Forget Password?</Text2>
             <ButtonWrapper>
                 <ButtonWrapperText>Sign in</ButtonWrapperText>
-                <ButtonWrapperButton>></ButtonWrapperButton>
+                <ButtonWrapperButton>{'->'}</ButtonWrapperButton>
             </ButtonWrapper>
             <Text3>Sign in with</Text3>
             <Text3>Back</Text3>
