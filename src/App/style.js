@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 // import User from '../icons/user.png'
-import {ReactComponents as User} from '../icons/ico.ico'
+// import {ReactComponents as User} from '../icons/ico.ico'
 
 export const Wrapper = styled.div`
 display: flex;
@@ -49,10 +49,10 @@ export const Input = styled.input`
     margin-top: 10px;
     color: #ffffff;
 `
-export const IconUser = styled(User)`
-    width: 25px;
-    height: 25px;
-`
+// export const IconUser = styled(User)`
+//     width: 25px;
+//     height: 25px;
+// `
 
 export const Text2 = styled.div`
     margin-left: auto;
@@ -100,3 +100,4 @@ export const Text22 = styled.div`
     margin-top: 13px;
     color: #575656;
 `
+
