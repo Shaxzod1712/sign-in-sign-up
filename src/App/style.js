@@ -114,6 +114,6 @@ box-shadow: 0.5px 1px 6px #e65400;
 cursor: pointer;
 border: none;
 :active{
-    transform: scale(0.90);
+    transform: scale(0.98);
 }
 `
