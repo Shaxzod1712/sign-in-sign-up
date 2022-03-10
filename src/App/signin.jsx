@@ -18,7 +18,7 @@ const Signin = () =>{
             <Text2>Forget Password?</Text2>
             <ButtonWrapper>
                 <ButtonWrapperText>Sign in</ButtonWrapperText>
-                <ButtonWrapperButton>{'->'}</ButtonWrapperButton>
+                {/* <ButtonWrapperButton>{'->'}</ButtonWrapperButton> */}
             </ButtonWrapper>
             <Text3>Sign in with</Text3>
             <Text3>Back</Text3>

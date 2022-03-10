@@ -101,3 +101,19 @@ export const Text22 = styled.div`
     color: #575656;
 `
 
+export const OnClick = styled.button`
+position: absolute;
+background-color: #e65400;
+color: white;
+margin-top: 600px;
+margin-left: 20px;
+width: 100px;
+height: 34px;
+border-radius: 24px;
+box-shadow: 0.5px 1px 6px #e65400;
+cursor: pointer;
+border: none;
+:active{
+    transform: scale(0.90);
+}
+`

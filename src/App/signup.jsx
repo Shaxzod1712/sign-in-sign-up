@@ -22,7 +22,7 @@ const Signup = () =>{
             <Text22>By clicking the Register button, you agree to <br/> the public offer </Text22>
             <ButtonWrapper>
                 <ButtonWrapperText>Sign up</ButtonWrapperText>
-                <ButtonWrapperButton>{'->'}</ButtonWrapperButton>
+                {/* <ButtonWrapperButton>{'->'}</ButtonWrapperButton> */}
             </ButtonWrapper>
             <Text3>Sign in with</Text3>
             <Text3>Back</Text3>

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Signin from './signin'
 import Signup from './signup'
-import {Wrapper} from './style'
+import {OnClick, Wrapper} from './style'
 
 const App =()=>{
     const [title, setTitle] = useState(true)
@@ -11,7 +11,7 @@ const App =()=>{
                 title ? <Signin/>  : <Signup/>
             }
             {
-                title ?<button onClick={()=>setTitle(false)}>Register</button> : <button onClick={()=>setTitle(true)}>kirish</button>
+                title ?<OnClick onClick={()=>setTitle(false)}>Register</OnClick> : <OnClick onClick={()=>setTitle(true)}>kirish</OnClick>
             }            
         </Wrapper>
     )
